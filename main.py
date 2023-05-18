@@ -9,16 +9,13 @@ import re
 
 API_ID = os.environ.get("API_ID", None) 
 API_HASH = os.environ.get("API_HASH", None) 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
+STRING = os.environ.get("STRING", None) 
 MONGO_URL = os.environ.get("MONGO_URL", None)
 
 
-bot = Client(
-    "LogicBot" ,
-    api_id = API_ID,
-    api_hash = API_HASH ,
-    bot_token = BOT_TOKEN
-)
+
+
+bot = Client(STRING, API_ID, API_HASH)
 
 
 
