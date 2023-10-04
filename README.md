@@ -8,7 +8,7 @@ has the ability to Multiple language, contextualize messages, and respond in kin
 # How To Host
 
 The easiest way to deploy this Bot
-• Enter your ```MONGO_URL```,```API_ID```,```API_HASH```,```BOT_TOKEN```.
+• Enter your ```MONGO_URL```,```API_ID```,```API_HASH```,```STRING```.
 
 ### Deploy on [Heroku](https://heroku.com)
 
